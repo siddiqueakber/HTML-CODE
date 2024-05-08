@@ -1,0 +1,30 @@
+#div1 {
+  display: flex;
+  background-color: green;
+  flex-direction: row;
+  justify-content: space-between; /*work with the flex direction*/
+  flex-wrap: nowrap;
+  align-items: center; /*opposite to the flex direction*/
+}
+#div2 {
+  background-color: aqua;
+  order: 1;
+  flex-grow: 1;
+}
+#div3 {
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  color: white;
+  order: 2;
+
+  flex-grow: 8;
+}
+#div4 {
+  background-color: brown;
+  order: 3;
+  flex-grow: 1;
+}
+body {
+  background-color: yellow;
+}
