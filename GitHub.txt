@@ -1,0 +1,16 @@
+GitHub:
+
+terminal keys:
+
+
+git init         // local repository initializing 
+
+git add .        // ready the changed file or new file for commit
+
+git status      // it shows which files that were modified or newly added
+
+git commit -m "message"    //  commits the changes in local repository
+
+
+git push -u origin main   // it unifies the local and remote repository    
+
