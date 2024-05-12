@@ -1,0 +1,9 @@
+Html Structure
+HTML Semantics 
+Tags
+CSS Style sheet
+Selector (ID, class, element, element class, universal)
+Selector Specificity
+hover
+2 Types of Flexbox, Grid Layout
+Git

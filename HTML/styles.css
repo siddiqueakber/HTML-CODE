@@ -1,0 +1,69 @@
+/* #div1 {
+  background-color: rgb(253, 239, 244);
+}
+#div2 {
+  background-color: tomato;
+}
+p {
+  background-color: red;
+}
+#header {
+  background-color: cyan;
+}
+p.numbered,
+h1,
+h2,
+h3,
+h4 {
+  background-color: red;
+  text-decoration: double;
+  font-size: xx-large;
+}
+
+#janda {
+  width: 30%;
+  height: 315px;
+  background-color: blue;
+  border-radius: 5%;
+  position: absolute;
+  z-index: 1;
+  padding-left: 5%;
+}
+
+#red {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+} */
+
+.flex-container {
+  display: flex;
+  flex-direction: row; /*Horizontal*/
+  background-color: rosybrown;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#first {
+  background-color: red;
+  width: 50px;
+  height: 100px;
+  order: -12;
+}
+
+#second {
+  background-color: white;
+  width: 50px;
+  height: 100px;
+  order: -1;
+}
+
+#third {
+  background-color: blue;
+  width: 50px;
+  height: 100px;
+  order: 0;
+}
